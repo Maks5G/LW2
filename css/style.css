@@ -45,7 +45,7 @@ h1{
 .wares{
     text-align: center;
 }
-.tu-kihb {
+.ready {
     text-align: center;
 }
 
@@ -60,33 +60,42 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+
 .list{
     display: inline-flex;
     text-align: center;
     justify-content: space-between;
     width: 1200 px;
 }
+
 .small{
     font-size: small;
 }
+
 .small p{
     font-size: small;
 }
+
 .small b{
     font-size: small;
 }
+
 .xBig{
     font-size: x-large;
 }
+
 .gray p{
     color: #808080;
 }
+
 .footer{
     display: inline-flex;
 }
+
 .footer div{
     margin-right: 25px;
 }
+
 .footer ul{
     display: flex; 
     justify-content: space-between; 
