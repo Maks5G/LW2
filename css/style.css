@@ -1,0 +1,94 @@
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.header__container {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head nav {
+    display: flex;
+}
+
+.head p {
+    margin-left: 45px;
+}
+.head span {
+    margin: 15px 0;
+}
+h1{
+    font-size: xx-large; 
+    justify-content: space-between; 
+    width: 740px;
+}
+.article{
+    display: flex;
+}
+.redbutton{
+    background-color: rgb(177, 32, 32);
+}
+.cloud{
+    display: flex; 
+    justify-content: center;
+}
+.cloud ul{
+    display: inline-flex; 
+    justify-content: space-between; 
+    width: 1200px;
+}
+.cloud p{
+    font-size: x-small;
+}
+.wares{
+    text-align: center;
+}
+.tu-kihb {
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choice {
+    width: 228px;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 1200 px;
+}
+.small{
+    font-size: small;
+}
+.small p{
+    font-size: small;
+}
+.small b{
+    font-size: small;
+}
+.xBig{
+    font-size: x-large;
+}
+.gray p{
+    color: #808080;
+}
+.footer{
+    display: inline-flex;
+}
+.footer div{
+    margin-right: 25px;
+}
+.footer ul{
+    display: flex; 
+    justify-content: space-between; 
+    width: 940px;
+}
