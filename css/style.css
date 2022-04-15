@@ -5,6 +5,12 @@
     font-family: 'Inter', sans-serif;
 }
 
+img{
+    display: block;
+    /* width: 100%; */
+}
+
+
 a{
     text-decoration: none;
     color: black;
@@ -54,12 +60,15 @@ li{
     font-family: 'Poppins', sans-serif;
 
 }
-
+.header__container img{
+    height: 60px;
+    padding: 0;
+    margin-left: -50px;
+}
 .head nav {
     display: flex;
     align-items: center;
 }
-
 
 .head nav a{
     color: black;
@@ -67,6 +76,7 @@ li{
 
 .head p {
     margin-left: 45px;
+    display: inline;
     transition: 0.15s all ease;
 }
 
@@ -118,22 +128,24 @@ li{
 .true p{
     font-size: 18px;
 }
-.content__true{
-    margin-bottom: 160px;
-}
+
 
 .cloud{
     display: flex; 
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 130px;
 }
 .cloud ul{
-    display: inline-flex; 
+    display: flex; 
     justify-content: space-between; 
+    flex-wrap: wrap;
+    flex: 1 1 auto;
     width: 1200px;
 }
 
 .cloud ul li{
+    margin-top: 160px;
     text-align: center;
     list-style-type: none;
 }
@@ -192,11 +204,16 @@ li{
 .choice p{
     margin: 0 75px;
 }
+
 .choice a{
     transition: 0.2s all ease;
 }
 .choice a:hover{
     color: rgb(177, 32, 32);
+}
+
+.option{
+    margin-bottom: 0;
 }
 .option button{
     padding: 0;
@@ -224,15 +241,23 @@ li{
 .list{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
     margin-bottom: 133px;
+
 }
 .list__item{
+    margin-top: 85px;
     text-align: left;
-    width: 300px;
+    width: 301px;
     border: 1px solid #C4C4C4;
     padding: 34px;
     border-radius: 12px;
+}
+
+.list__item:last-child
+{
+    margin-right: 0;
 }
 .list h4{
     margin-top: 5px;
